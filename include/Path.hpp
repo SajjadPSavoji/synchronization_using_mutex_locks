@@ -5,7 +5,7 @@
 #include <vector>
 #include "Edge.hpp"
 
-#define DEFAULT_CAR_ID 0
+#define DEFAULT_PATH_ID 0
 #define DEFAULT_NUM_CARS 0
 #define PATH_ID_EXPLAIN "id : "
 #define PATH_CAR_NUMBER_EXPLAIN " n_cars: "
@@ -17,7 +17,7 @@ class Path
 {
 private:
 
-    int id = DEFAULT_CAR_ID;
+    int id = DEFAULT_PATH_ID;
     int num_cars = DEFAULT_NUM_CARS;
     std::vector<Edge*> edges;
 

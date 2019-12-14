@@ -38,7 +38,7 @@ int main(int argc, char const *argv[])
     graph.init(edges_info,pathes_info);
 
     // check if graph is initialized correct
-    // cout<<graph;
+    cout<<graph;
 
     // simulate graph
 
