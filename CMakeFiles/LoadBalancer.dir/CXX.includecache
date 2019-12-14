@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Edge.cpp
+
+/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/main.cpp
+

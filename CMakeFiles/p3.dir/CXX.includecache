@@ -1,0 +1,68 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Edge.cpp
+Edge.hpp
+/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Edge.hpp
+
+/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Graph.cpp
+Graph.hpp
+/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Graph.hpp
+
+/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Path.cpp
+Path.hpp
+/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Path.hpp
+
+/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/main.cpp
+utils.hpp
+/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/utils.hpp
+
+/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/utils.cpp
+utils.hpp
+/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/utils.hpp
+
+include/Edge.hpp
+iostream
+-
+vector
+-
+
+include/Graph.hpp
+iostream
+-
+vector
+-
+sstream
+-
+string
+-
+algorithm
+-
+iterator
+-
+Edge.hpp
+include/Edge.hpp
+Path.hpp
+include/Path.hpp
+
+include/Path.hpp
+iostream
+-
+vector
+-
+Edge.hpp
+include/Edge.hpp
+
+include/utils.hpp
+iostream
+-
+vector
+-
+Graph.hpp
+include/Graph.hpp
+

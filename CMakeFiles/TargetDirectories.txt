@@ -1,0 +1,3 @@
+/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/CMakeFiles/rebuild_cache.dir
+/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/CMakeFiles/p3.dir
+/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/CMakeFiles/edit_cache.dir
