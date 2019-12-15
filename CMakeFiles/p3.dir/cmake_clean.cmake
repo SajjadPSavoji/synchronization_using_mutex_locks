@@ -1,7 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/p3.dir/src/Car.cpp.o"
   "CMakeFiles/p3.dir/src/Edge.cpp.o"
   "CMakeFiles/p3.dir/src/Graph.cpp.o"
   "CMakeFiles/p3.dir/src/Path.cpp.o"
+  "CMakeFiles/p3.dir/src/Polution.cpp.o"
+  "CMakeFiles/p3.dir/src/Record.cpp.o"
   "CMakeFiles/p3.dir/src/main.cpp.o"
   "CMakeFiles/p3.dir/src/utils.cpp.o"
   "p3.pdb"

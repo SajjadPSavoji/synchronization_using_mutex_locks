@@ -97,3 +97,28 @@ std::ostream& operator<< (std::ostream& os, Graph p)
 
     return os;
 }
+
+// simulation functions
+void Graph::simulate_path(Path p)
+{
+    p.simulate(&total_polution);
+}
+
+void Graph::simulate()
+{
+    // make path_count threads and let them call path.simulate
+    std::vector<std::thread> threads;
+
+    for (size_t i = 0; i < path_count; i++)
+    {
+        std::thread new_thread(&Graph::simulate_path , this , pathes[i]);
+        threads.push_back(std::move(new_thread));
+    }
+    
+    // join threads
+    for (size_t i = 0; i < threads.size(); i++)
+    {
+        threads[i].join();
+    }
+    
+}

@@ -123,6 +123,33 @@ p3/fast:
 	$(MAKE) -f CMakeFiles/p3.dir/build.make CMakeFiles/p3.dir/build
 .PHONY : p3/fast
 
+src/Car.o: src/Car.cpp.o
+
+.PHONY : src/Car.o
+
+# target to build an object file
+src/Car.cpp.o:
+	$(MAKE) -f CMakeFiles/p3.dir/build.make CMakeFiles/p3.dir/src/Car.cpp.o
+.PHONY : src/Car.cpp.o
+
+src/Car.i: src/Car.cpp.i
+
+.PHONY : src/Car.i
+
+# target to preprocess a source file
+src/Car.cpp.i:
+	$(MAKE) -f CMakeFiles/p3.dir/build.make CMakeFiles/p3.dir/src/Car.cpp.i
+.PHONY : src/Car.cpp.i
+
+src/Car.s: src/Car.cpp.s
+
+.PHONY : src/Car.s
+
+# target to generate assembly for a file
+src/Car.cpp.s:
+	$(MAKE) -f CMakeFiles/p3.dir/build.make CMakeFiles/p3.dir/src/Car.cpp.s
+.PHONY : src/Car.cpp.s
+
 src/Edge.o: src/Edge.cpp.o
 
 .PHONY : src/Edge.o
@@ -204,6 +231,60 @@ src/Path.cpp.s:
 	$(MAKE) -f CMakeFiles/p3.dir/build.make CMakeFiles/p3.dir/src/Path.cpp.s
 .PHONY : src/Path.cpp.s
 
+src/Polution.o: src/Polution.cpp.o
+
+.PHONY : src/Polution.o
+
+# target to build an object file
+src/Polution.cpp.o:
+	$(MAKE) -f CMakeFiles/p3.dir/build.make CMakeFiles/p3.dir/src/Polution.cpp.o
+.PHONY : src/Polution.cpp.o
+
+src/Polution.i: src/Polution.cpp.i
+
+.PHONY : src/Polution.i
+
+# target to preprocess a source file
+src/Polution.cpp.i:
+	$(MAKE) -f CMakeFiles/p3.dir/build.make CMakeFiles/p3.dir/src/Polution.cpp.i
+.PHONY : src/Polution.cpp.i
+
+src/Polution.s: src/Polution.cpp.s
+
+.PHONY : src/Polution.s
+
+# target to generate assembly for a file
+src/Polution.cpp.s:
+	$(MAKE) -f CMakeFiles/p3.dir/build.make CMakeFiles/p3.dir/src/Polution.cpp.s
+.PHONY : src/Polution.cpp.s
+
+src/Record.o: src/Record.cpp.o
+
+.PHONY : src/Record.o
+
+# target to build an object file
+src/Record.cpp.o:
+	$(MAKE) -f CMakeFiles/p3.dir/build.make CMakeFiles/p3.dir/src/Record.cpp.o
+.PHONY : src/Record.cpp.o
+
+src/Record.i: src/Record.cpp.i
+
+.PHONY : src/Record.i
+
+# target to preprocess a source file
+src/Record.cpp.i:
+	$(MAKE) -f CMakeFiles/p3.dir/build.make CMakeFiles/p3.dir/src/Record.cpp.i
+.PHONY : src/Record.cpp.i
+
+src/Record.s: src/Record.cpp.s
+
+.PHONY : src/Record.s
+
+# target to generate assembly for a file
+src/Record.cpp.s:
+	$(MAKE) -f CMakeFiles/p3.dir/build.make CMakeFiles/p3.dir/src/Record.cpp.s
+.PHONY : src/Record.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -267,6 +348,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... p3"
 	@echo "... edit_cache"
+	@echo "... src/Car.o"
+	@echo "... src/Car.i"
+	@echo "... src/Car.s"
 	@echo "... src/Edge.o"
 	@echo "... src/Edge.i"
 	@echo "... src/Edge.s"
@@ -276,6 +360,12 @@ help:
 	@echo "... src/Path.o"
 	@echo "... src/Path.i"
 	@echo "... src/Path.s"
+	@echo "... src/Polution.o"
+	@echo "... src/Polution.i"
+	@echo "... src/Polution.s"
+	@echo "... src/Record.o"
+	@echo "... src/Record.i"
+	@echo "... src/Record.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

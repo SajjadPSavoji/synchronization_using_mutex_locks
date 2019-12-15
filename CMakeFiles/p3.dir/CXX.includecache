@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Car.cpp
+Car.hpp
+/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Car.hpp
+
 /home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Edge.cpp
 Edge.hpp
 /home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Edge.hpp
@@ -18,6 +22,14 @@ Graph.hpp
 Path.hpp
 /home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Path.hpp
 
+/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Polution.cpp
+Polution.hpp
+/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Polution.hpp
+
+/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Record.cpp
+Record.hpp
+/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Record.hpp
+
 /home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/main.cpp
 utils.hpp
 /home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/utils.hpp
@@ -26,10 +38,30 @@ utils.hpp
 utils.hpp
 /home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/utils.hpp
 
+include/Car.hpp
+random
+-
+iostream
+-
+vector
+-
+fstream
+-
+string
+-
+Record.hpp
+include/Record.hpp
+
 include/Edge.hpp
 iostream
 -
 vector
+-
+Car.hpp
+include/Car.hpp
+Polution.hpp
+include/Polution.hpp
+mutex
 -
 
 include/Graph.hpp
@@ -45,18 +77,46 @@ algorithm
 -
 iterator
 -
+thread
+-
+semaphore.h
+-
 Edge.hpp
 include/Edge.hpp
 Path.hpp
 include/Path.hpp
+Polution.hpp
+include/Polution.hpp
 
 include/Path.hpp
 iostream
 -
 vector
 -
+thread
+-
 Edge.hpp
 include/Edge.hpp
+Polution.hpp
+include/Polution.hpp
+Car.hpp
+include/Car.hpp
+
+include/Polution.hpp
+iostream
+-
+mutex
+-
+thread
+-
+
+include/Record.hpp
+iostream
+-
+ctime
+-
+vector
+-
 
 include/utils.hpp
 iostream

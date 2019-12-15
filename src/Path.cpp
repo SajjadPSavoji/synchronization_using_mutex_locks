@@ -37,3 +37,36 @@ std::ostream& operator<< (std::ostream& os, std::vector<Path> ps)
     
     return os;
 }
+
+// simulation functions
+
+void Path::simulate_edges(int car_num , Polution* total_polution)
+{
+    // init car
+    Car car(car_num , id);
+
+    for (size_t i = 0; i < edges.size(); i++)
+    {
+        edges[i]->simulate(car , total_polution);
+    }
+    
+    car.save_records();
+}
+
+void Path::simulate(Polution* total_polution)
+{
+    // make num_cars threads and let them call path.simulate_edges
+    std::vector<std::thread> threads;
+
+    for (size_t i = 0; i < num_cars; i++)
+    {
+        std::thread new_thread(&Path::simulate_edges , this , i , total_polution);
+        threads.push_back(std::move(new_thread));
+    }
+
+    // join threads
+    for (size_t i = 0; i < threads.size(); i++)
+    {
+        threads[i].join();
+    }
+}

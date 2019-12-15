@@ -3,7 +3,11 @@
 
 #include <iostream>
 #include <vector>
+#include <thread>
+
 #include "Edge.hpp"
+#include "Polution.hpp"
+#include "Car.hpp"
 
 #define DEFAULT_PATH_ID 0
 #define DEFAULT_NUM_CARS 0
@@ -30,6 +34,10 @@ public:
     int get_id(){return id;}
     int get_num_cars(){return num_cars;}
     std::vector<Edge*> get_edges(){return edges;}
+
+    // simulaton functions
+    void simulate_edges(int car_num , Polution* total_polution);
+    void simulate(Polution* total_polution);
 };
 
 std::ostream& operator<< (std::ostream& os, Path p);

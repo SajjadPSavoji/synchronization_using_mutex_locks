@@ -7,9 +7,12 @@
 #include <string>
 #include <algorithm>
 #include <iterator>
+#include <thread> 
+#include <semaphore.h>
 
 #include "Edge.hpp"
 #include "Path.hpp"
+#include "Polution.hpp"
 
 #define DELIM "-"
 #define SPACE " "
@@ -25,6 +28,7 @@ private:
     int path_count = DEFAULT_PATH_COUNT;
     std::vector<Edge> edges;
     std::vector<Path> pathes;
+    Polution total_polution;
 public:
     Graph();
     ~Graph();
@@ -38,6 +42,10 @@ public:
     int get_path_count(){return path_count;}
     std::vector<Edge> get_edges(){return edges;}
     std::vector<Path> get_pathes(){return pathes;}
+
+    // simulation function
+    void simulate();
+    void simulate_path(Path p);
 };
 
 std::ostream& operator<< (std::ostream& os, Graph p);

@@ -57,9 +57,33 @@ include CMakeFiles/p3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/p3.dir/flags.make
 
+CMakeFiles/p3.dir/src/Car.cpp.o: CMakeFiles/p3.dir/flags.make
+CMakeFiles/p3.dir/src/Car.cpp.o: src/Car.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/p3.dir/src/Car.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/p3.dir/src/Car.cpp.o -c "/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Car.cpp"
+
+CMakeFiles/p3.dir/src/Car.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/p3.dir/src/Car.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Car.cpp" > CMakeFiles/p3.dir/src/Car.cpp.i
+
+CMakeFiles/p3.dir/src/Car.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/p3.dir/src/Car.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Car.cpp" -o CMakeFiles/p3.dir/src/Car.cpp.s
+
+CMakeFiles/p3.dir/src/Car.cpp.o.requires:
+
+.PHONY : CMakeFiles/p3.dir/src/Car.cpp.o.requires
+
+CMakeFiles/p3.dir/src/Car.cpp.o.provides: CMakeFiles/p3.dir/src/Car.cpp.o.requires
+	$(MAKE) -f CMakeFiles/p3.dir/build.make CMakeFiles/p3.dir/src/Car.cpp.o.provides.build
+.PHONY : CMakeFiles/p3.dir/src/Car.cpp.o.provides
+
+CMakeFiles/p3.dir/src/Car.cpp.o.provides.build: CMakeFiles/p3.dir/src/Car.cpp.o
+
+
 CMakeFiles/p3.dir/src/Edge.cpp.o: CMakeFiles/p3.dir/flags.make
 CMakeFiles/p3.dir/src/Edge.cpp.o: src/Edge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/p3.dir/src/Edge.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/p3.dir/src/Edge.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/p3.dir/src/Edge.cpp.o -c "/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Edge.cpp"
 
 CMakeFiles/p3.dir/src/Edge.cpp.i: cmake_force
@@ -83,7 +107,7 @@ CMakeFiles/p3.dir/src/Edge.cpp.o.provides.build: CMakeFiles/p3.dir/src/Edge.cpp.
 
 CMakeFiles/p3.dir/src/Graph.cpp.o: CMakeFiles/p3.dir/flags.make
 CMakeFiles/p3.dir/src/Graph.cpp.o: src/Graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/p3.dir/src/Graph.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/p3.dir/src/Graph.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/p3.dir/src/Graph.cpp.o -c "/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Graph.cpp"
 
 CMakeFiles/p3.dir/src/Graph.cpp.i: cmake_force
@@ -107,7 +131,7 @@ CMakeFiles/p3.dir/src/Graph.cpp.o.provides.build: CMakeFiles/p3.dir/src/Graph.cp
 
 CMakeFiles/p3.dir/src/Path.cpp.o: CMakeFiles/p3.dir/flags.make
 CMakeFiles/p3.dir/src/Path.cpp.o: src/Path.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/p3.dir/src/Path.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/p3.dir/src/Path.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/p3.dir/src/Path.cpp.o -c "/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Path.cpp"
 
 CMakeFiles/p3.dir/src/Path.cpp.i: cmake_force
@@ -129,9 +153,57 @@ CMakeFiles/p3.dir/src/Path.cpp.o.provides: CMakeFiles/p3.dir/src/Path.cpp.o.requ
 CMakeFiles/p3.dir/src/Path.cpp.o.provides.build: CMakeFiles/p3.dir/src/Path.cpp.o
 
 
+CMakeFiles/p3.dir/src/Polution.cpp.o: CMakeFiles/p3.dir/flags.make
+CMakeFiles/p3.dir/src/Polution.cpp.o: src/Polution.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/p3.dir/src/Polution.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/p3.dir/src/Polution.cpp.o -c "/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Polution.cpp"
+
+CMakeFiles/p3.dir/src/Polution.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/p3.dir/src/Polution.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Polution.cpp" > CMakeFiles/p3.dir/src/Polution.cpp.i
+
+CMakeFiles/p3.dir/src/Polution.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/p3.dir/src/Polution.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Polution.cpp" -o CMakeFiles/p3.dir/src/Polution.cpp.s
+
+CMakeFiles/p3.dir/src/Polution.cpp.o.requires:
+
+.PHONY : CMakeFiles/p3.dir/src/Polution.cpp.o.requires
+
+CMakeFiles/p3.dir/src/Polution.cpp.o.provides: CMakeFiles/p3.dir/src/Polution.cpp.o.requires
+	$(MAKE) -f CMakeFiles/p3.dir/build.make CMakeFiles/p3.dir/src/Polution.cpp.o.provides.build
+.PHONY : CMakeFiles/p3.dir/src/Polution.cpp.o.provides
+
+CMakeFiles/p3.dir/src/Polution.cpp.o.provides.build: CMakeFiles/p3.dir/src/Polution.cpp.o
+
+
+CMakeFiles/p3.dir/src/Record.cpp.o: CMakeFiles/p3.dir/flags.make
+CMakeFiles/p3.dir/src/Record.cpp.o: src/Record.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/p3.dir/src/Record.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/p3.dir/src/Record.cpp.o -c "/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Record.cpp"
+
+CMakeFiles/p3.dir/src/Record.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/p3.dir/src/Record.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Record.cpp" > CMakeFiles/p3.dir/src/Record.cpp.i
+
+CMakeFiles/p3.dir/src/Record.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/p3.dir/src/Record.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/Record.cpp" -o CMakeFiles/p3.dir/src/Record.cpp.s
+
+CMakeFiles/p3.dir/src/Record.cpp.o.requires:
+
+.PHONY : CMakeFiles/p3.dir/src/Record.cpp.o.requires
+
+CMakeFiles/p3.dir/src/Record.cpp.o.provides: CMakeFiles/p3.dir/src/Record.cpp.o.requires
+	$(MAKE) -f CMakeFiles/p3.dir/build.make CMakeFiles/p3.dir/src/Record.cpp.o.provides.build
+.PHONY : CMakeFiles/p3.dir/src/Record.cpp.o.provides
+
+CMakeFiles/p3.dir/src/Record.cpp.o.provides.build: CMakeFiles/p3.dir/src/Record.cpp.o
+
+
 CMakeFiles/p3.dir/src/main.cpp.o: CMakeFiles/p3.dir/flags.make
 CMakeFiles/p3.dir/src/main.cpp.o: src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/p3.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/p3.dir/src/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/p3.dir/src/main.cpp.o -c "/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/main.cpp"
 
 CMakeFiles/p3.dir/src/main.cpp.i: cmake_force
@@ -155,7 +227,7 @@ CMakeFiles/p3.dir/src/main.cpp.o.provides.build: CMakeFiles/p3.dir/src/main.cpp.
 
 CMakeFiles/p3.dir/src/utils.cpp.o: CMakeFiles/p3.dir/flags.make
 CMakeFiles/p3.dir/src/utils.cpp.o: src/utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/p3.dir/src/utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/p3.dir/src/utils.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/p3.dir/src/utils.cpp.o -c "/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/src/utils.cpp"
 
 CMakeFiles/p3.dir/src/utils.cpp.i: cmake_force
@@ -179,23 +251,29 @@ CMakeFiles/p3.dir/src/utils.cpp.o.provides.build: CMakeFiles/p3.dir/src/utils.cp
 
 # Object files for target p3
 p3_OBJECTS = \
+"CMakeFiles/p3.dir/src/Car.cpp.o" \
 "CMakeFiles/p3.dir/src/Edge.cpp.o" \
 "CMakeFiles/p3.dir/src/Graph.cpp.o" \
 "CMakeFiles/p3.dir/src/Path.cpp.o" \
+"CMakeFiles/p3.dir/src/Polution.cpp.o" \
+"CMakeFiles/p3.dir/src/Record.cpp.o" \
 "CMakeFiles/p3.dir/src/main.cpp.o" \
 "CMakeFiles/p3.dir/src/utils.cpp.o"
 
 # External object files for target p3
 p3_EXTERNAL_OBJECTS =
 
+p3: CMakeFiles/p3.dir/src/Car.cpp.o
 p3: CMakeFiles/p3.dir/src/Edge.cpp.o
 p3: CMakeFiles/p3.dir/src/Graph.cpp.o
 p3: CMakeFiles/p3.dir/src/Path.cpp.o
+p3: CMakeFiles/p3.dir/src/Polution.cpp.o
+p3: CMakeFiles/p3.dir/src/Record.cpp.o
 p3: CMakeFiles/p3.dir/src/main.cpp.o
 p3: CMakeFiles/p3.dir/src/utils.cpp.o
 p3: CMakeFiles/p3.dir/build.make
 p3: CMakeFiles/p3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable p3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/savoji/Desktop/term7/OS/course projects/ca3/os_multi_thread/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable p3"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/p3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -203,9 +281,12 @@ CMakeFiles/p3.dir/build: p3
 
 .PHONY : CMakeFiles/p3.dir/build
 
+CMakeFiles/p3.dir/requires: CMakeFiles/p3.dir/src/Car.cpp.o.requires
 CMakeFiles/p3.dir/requires: CMakeFiles/p3.dir/src/Edge.cpp.o.requires
 CMakeFiles/p3.dir/requires: CMakeFiles/p3.dir/src/Graph.cpp.o.requires
 CMakeFiles/p3.dir/requires: CMakeFiles/p3.dir/src/Path.cpp.o.requires
+CMakeFiles/p3.dir/requires: CMakeFiles/p3.dir/src/Polution.cpp.o.requires
+CMakeFiles/p3.dir/requires: CMakeFiles/p3.dir/src/Record.cpp.o.requires
 CMakeFiles/p3.dir/requires: CMakeFiles/p3.dir/src/main.cpp.o.requires
 CMakeFiles/p3.dir/requires: CMakeFiles/p3.dir/src/utils.cpp.o.requires
 
