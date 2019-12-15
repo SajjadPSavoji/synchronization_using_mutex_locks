@@ -4,8 +4,9 @@
 #include <iostream>
 #include <ctime>
 #include <vector>
+#include <chrono>
 
-#define REC_DELIM " , "
+#define REC_DELIM ", "
 
 class Record
 {
